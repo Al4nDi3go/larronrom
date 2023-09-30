@@ -1,0 +1,166 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a background color and set font styles */
+body {
+  font-family: 'Times New Roman', Times, serif; /* Use a more common font */
+  background-color: #ffffff; /* Light gray background */
+}
+
+/* Style the header */
+#header {
+  background-color: #AD8063;
+  color: #ffffff;
+  padding: 15px 0;
+}
+
+#header .logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#header .logo i {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+#header .navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#header .navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#header .navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+#header .navbar ul li a:hover {
+  color: #C0F8FA;
+}
+
+#header .header-social-links {
+  margin-left: 20px;
+}
+
+#header .header-social-links a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+  transition: color 0.3s ease;
+}
+
+#header .header-social-links a:hover {
+  color: #C0F8FA;
+}
+
+/* Style the hero section */
+#hero {
+  background-image: url('assets/img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #000000; /* Improved text color for contrast */
+  padding: 150px 0;
+}
+
+#hero h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#hero p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#hero .btn-get-started {
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  background-color: #AD8063; /* Match header background color */
+}
+
+#hero .btn-get-started:hover {
+  background-color: #FACAAC;
+}
+
+/* Style the gallery section */
+#gallery {
+  padding: 60px 0;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-links {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-links {
+  opacity: 1;
+}
+
+.gallery-links a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Style the footer */
+#footer {
+  background-color: #AD8063;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
+}
+
+#footer .credits a {
+  color: #C0F8FA;
+  text-decoration: none;
+}
+
+#footer .credits a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: auto;
+  
+}
